@@ -11,6 +11,7 @@ import Home from './component/Home/Home';
 import Main from './component/Main/Main';
 import OrdersReview from './component/OrdersReview/OrdersReview';
 import About from './component/About/About';
+import Grandpa from './component/Grandpa/Grandpa';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <About></About>,
+      },
+      {
+        path: "grandpa",
+        element: <Grandpa></Grandpa>
       },
     ]
   }
